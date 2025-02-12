@@ -1,0 +1,39 @@
+/*working on a login from*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+     display: flex;
+     flex-direction: column;
+     width:300px ;
+     padding: 20px;
+     border: 10px solid lightseagreen;
+     border-radius:30px ;
+}
+input{
+    margin: 5px 0px;
+    height:40px ;
+    padding:7px ;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 30px;
+    color: lightblue;
+    
+    
+}
+button:hover{
+    background-color: lightblue;
+    color: lightblue;
+}
